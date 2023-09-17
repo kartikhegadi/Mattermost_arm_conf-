@@ -142,7 +142,15 @@ sudo nginx -t
 ```
 If the configuration is correct, reload Nginx:
 
+```bash 
 
+sudo service nginx reload
+```
+
+Now visit your domain, your mattermost will be up and running.
+
+
+```bash
 ```
 Replace `mattermost.example.com` with your domain / subdomin pointing to your server.
 
